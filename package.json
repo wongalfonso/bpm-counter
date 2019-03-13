@@ -1,0 +1,27 @@
+{
+  "name": "bpm-counter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wongalfonso/bpm-counter.git"
+  },
+  "keywords": [
+    "BPM",
+    "Counter",
+    "Music",
+    "Beats",
+    "Per",
+    "Minute"
+  ],
+  "author": "Alfonso Wong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wongalfonso/bpm-counter/issues"
+  },
+  "homepage": "https://github.com/wongalfonso/bpm-counter#readme"
+}

@@ -23,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/wongalfonso/bpm-counter/issues"
   },
-  "homepage": "https://github.com/wongalfonso/bpm-counter#readme"
+  "homepage": "https://github.com/wongalfonso/bpm-counter#readme",
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-merge": "^4.2.1"
+  }
 }

@@ -4,8 +4,8 @@ const morgan = require('morgan');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-if (process.env !== 'develpment') {
-  app.use(morgan());
+if (process.env.NODE_ENV !== 'develpment') {
+  app.use(morgan());  
 } else {
   app.use(morgan('dev'));
 }

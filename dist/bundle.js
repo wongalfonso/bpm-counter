@@ -95,7 +95,7 @@
 
 exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, "*, ::after, ::before {\n  padding: 0;\n  margin: 0;\n  box-sizing: border-box; }\n\nhtml, body {\n  margin: 0;\n  padding: 0;\n  position: relative;\n  height: 100%;\n  width: 100%; }\n\n.full-page {\n  width: 100vw;\n  height: 100vh; }\n  .full-page .container {\n    position: relative;\n    margin: 0 auto;\n    height: 100%; }\n    .full-page .container .counters {\n      position: absolute;\n      top: 50%;\n      left: 50%;\n      transform: translate(-50%, -50%);\n      max-width: 500px;\n      width: 100%;\n      border-radius: 20px;\n      padding: 1rem 4rem;\n      background-color: lightgrey;\n      display: flex;\n      align-items: center;\n      flex-direction: column;\n      -ms-flex-direction: column; }\n      .full-page .container .counters .main-counter {\n        font-size: 6rem; }\n      .full-page .container .counters .average-counter, .full-page .container .counters .tap-counter {\n        font-size: 2rem;\n        color: white;\n        margin: 1rem; }\n      .full-page .container .counters .button-counter {\n        width: 100%;\n        padding: 1rem;\n        font-size: 1.5rem;\n        background-color: blue;\n        color: white;\n        border-radius: 8px;\n        margin-top: 1rem; }\n\n@media only screen and (max-width: 400px) {\n  .container {\n    max-width: 320px; } }\n\n@media only screen and (min-width: 401px) and (max-width: 600px) {\n  .container {\n    max-width: 450px; } }\n\n@media only screen and (min-width: 601px) and (max-width: 900px) {\n  .container {\n    max-width: 850px; } }\n\n@media only screen and (min-width: 901px) and (max-width: 1200px) {\n  .container {\n    max-width: 1050px; } }\n\n@media only screen and (min-width: 1201px) and (max-width: 1500px) {\n  .container {\n    max-width: 1200px; } }\n\n@media only screen and (min-width: 1500px) {\n  .container {\n    max-width: 1350px; } }\n", ""]);
+exports.push([module.i, "*, ::after, ::before {\n  padding: 0;\n  margin: 0;\n  box-sizing: border-box; }\n\nhtml, body {\n  margin: 0;\n  padding: 0;\n  position: relative;\n  height: 100%;\n  width: 100%; }\n\n.full-page {\n  width: 100vw;\n  height: 100vh;\n  background-color: #343434; }\n  .full-page .container {\n    position: relative;\n    margin: 0 auto;\n    height: 100%; }\n    .full-page .container .counters {\n      position: absolute;\n      top: 50%;\n      left: 50%;\n      transform: translate(-50%, -50%);\n      max-width: 500px;\n      width: 100%;\n      padding: 1rem 4rem;\n      color: white;\n      display: flex;\n      align-items: center;\n      flex-direction: column;\n      -ms-flex-direction: column; }\n      .full-page .container .counters .main-counter {\n        display: flex;\n        align-items: center;\n        height: 6rem;\n        transition: all .2s ease-in; }\n        .full-page .container .counters .main-counter-0 {\n          color: #00ba00;\n          font-size: 6rem; }\n        .full-page .container .counters .main-counter-1 {\n          color: #008c00;\n          font-size: 5.5rem; }\n        .full-page .container .counters .main-counter-2 {\n          color: #396100;\n          font-size: 5rem; }\n        .full-page .container .counters .main-counter-3 {\n          color: #c8ff00;\n          font-size: 4.5rem; }\n        .full-page .container .counters .main-counter-4 {\n          color: #eaff00;\n          font-size: 4rem; }\n        .full-page .container .counters .main-counter-5 {\n          color: #fff700;\n          font-size: 3.5rem; }\n        .full-page .container .counters .main-counter-6 {\n          color: #e18e00;\n          font-size: 3rem; }\n        .full-page .container .counters .main-counter-7 {\n          color: #bb0000;\n          font-size: 2.5rem; }\n        .full-page .container .counters .main-counter-8 {\n          color: #980000;\n          font-size: 2rem; }\n      .full-page .container .counters .average-counter, .full-page .container .counters .tap-counter {\n        font-size: 2rem;\n        color: white;\n        margin: 1rem; }\n      .full-page .container .counters .buttons {\n        width: 100%;\n        padding: 1rem;\n        font-size: 1.5rem;\n        color: white;\n        border-radius: 8px;\n        margin-top: 1rem; }\n        .full-page .container .counters .buttons-counter {\n          background-color: blue;\n          border: solid darkblue; }\n          .full-page .container .counters .buttons-counter-start {\n            margin-top: 4rem; }\n        .full-page .container .counters .buttons-reset {\n          background-color: red;\n          border: solid darkred; }\n\n@media only screen and (max-width: 400px) {\n  .full-page .container .counters {\n    padding: 2rem .5rem;\n    height: 100%;\n    justify-content: space-around; }\n    .full-page .container .counters .buttons {\n      height: 5rem; } }\n\n@media only screen and (min-width: 401px) and (max-width: 600px) {\n  .container {\n    max-width: 450px; } }\n\n@media only screen and (min-width: 601px) and (max-width: 900px) {\n  .container {\n    max-width: 850px; } }\n\n@media only screen and (min-width: 901px) {\n  .container .counters {\n    border-radius: 20px; } }\n\n@media only screen and (min-width: 901px) and (max-width: 1200px) {\n  .container {\n    max-width: 1050px; } }\n\n@media only screen and (min-width: 1201px) and (max-width: 1500px) {\n  .container {\n    max-width: 1200px; } }\n\n@media only screen and (min-width: 1500px) {\n  .container {\n    max-width: 1350px; } }\n", ""]);
 
 
 
@@ -25419,6 +25419,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return App; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Counter__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Counter */ "./src/js/components/Counter.jsx");
+/* harmony import */ var _Start__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Start */ "./src/js/components/Start.jsx");
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -25439,6 +25441,8 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 
 
+
+
 var App =
 /*#__PURE__*/
 function (_Component) {
@@ -25451,73 +25455,164 @@ function (_Component) {
 
     _this = _possibleConstructorReturn(this, _getPrototypeOf(App).call(this, props));
     _this.state = {
-      tapCounter: 0,
-      averageBPM: 0,
-      BPM: 0,
-      timer: 0,
-      intervalArr: []
+      startTimer: null
     };
-    _this.handleClick = _this.handleClick.bind(_assertThisInitialized(_this));
-    _this.startTimer = _this.startTimer.bind(_assertThisInitialized(_this));
+    _this.resetTimer = _this.resetTimer.bind(_assertThisInitialized(_this));
     return _this;
   }
 
   _createClass(App, [{
-    key: "componentWillMount",
-    value: function componentWillMount() {
-      var _this2 = this;
-
-      document.addEventListener('keydown', function (event) {
-        if (event.keyCode == '32') {
-          _this2.handleClick(_this2.state.tapCounter + 1);
-        }
+    key: "resetTimer",
+    value: function resetTimer() {
+      this.setState({
+        startTimer: null
       });
     }
   }, {
-    key: "startTimer",
-    value: function startTimer() {
-      var _this3 = this;
+    key: "render",
+    value: function render() {
+      var _this2 = this;
 
-      setInterval(function () {
-        var currentTime = _this3.state.timer + 100;
+      var startTimer = this.state.startTimer;
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "full-page"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "container"
+      }, startTimer ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Counter__WEBPACK_IMPORTED_MODULE_1__["default"], {
+        Reset: function Reset() {
+          return _this2.setState({
+            startTimer: null
+          });
+        }
+      }) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Start__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        Start: function Start() {
+          return _this2.setState({
+            startTimer: true
+          });
+        }
+      })));
+    }
+  }]);
+
+  return App;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
+
+
+
+/***/ }),
+
+/***/ "./src/js/components/Counter.jsx":
+/*!***************************************!*\
+  !*** ./src/js/components/Counter.jsx ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Counter; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+
+
+var Counter =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(Counter, _Component);
+
+  function Counter(props) {
+    var _this;
+
+    _classCallCheck(this, Counter);
+
+    _this = _possibleConstructorReturn(this, _getPrototypeOf(Counter).call(this, props));
+    _this.state = {
+      timer: 0,
+      tapCounter: 1,
+      averageBPM: 0,
+      bpm: 0,
+      intervalArr: [],
+      classAnim: 2,
+      classArr: []
+    };
+    _this.handleClick = _this.handleClick.bind(_assertThisInitialized(_this));
+    _this.counterSpaceBar = _this.counterSpaceBar.bind(_assertThisInitialized(_this));
+    return _this;
+  }
+
+  _createClass(Counter, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      var _this2 = this;
+
+      window.addEventListener('keyup', this.counterSpaceBar);
+      this.interval = setInterval(function () {
+        var currentTime = _this2.state.timer + 100;
 
         if (currentTime > 180000) {
           currentTime = 0;
         }
 
-        _this3.setState({
+        _this2.setState({
           timer: currentTime
         });
       }, 100);
+    }
+  }, {
+    key: "counterSpaceBar",
+    value: function counterSpaceBar(event) {
+      if (event.keyCode == '32') {
+        this.handleClick(this.state.tapCounter + 1);
+      }
     }
   }, {
     key: "handleClick",
     value: function handleClick(count) {
       var intArr = [],
           averageArr = [],
+          classCheck = [],
           average,
           interval,
           minute,
-          bpm;
+          bpm,
+          classNum;
+      var classAnim = this.state.classAnim;
 
       if (this.state.intervalArr.length > 0) {
         intArr = this.state.intervalArr;
       }
 
       intArr.push(this.state.timer);
-      this.state.timer < 1 && this.startTimer();
 
       if (intArr.length > 1) {
         for (var i = 1; i < intArr.length; i++) {
           interval = intArr[i] - intArr[i - 1];
           averageArr.push(interval);
 
-          if (averageArr.length > 20) {
+          if (averageArr.length > 40) {
             averageArr.shift();
           }
         }
 
-        if (intArr.length > 20) {
+        if (intArr.length > 40) {
           intArr.shift();
         }
       } else {
@@ -25528,17 +25623,35 @@ function (_Component) {
         return total + num;
       });
       average = average / averageArr.length;
+      minute = 60000;
 
-      if (this.state.timer > 60000) {
-        minute = Math.ceil(this.state.timer / 60000);
-      } else {
-        minute = 60000;
-      }
-
-      if (average === 0) {
+      if (averageArr.length == 1) {
         bpm = 60;
       } else {
         bpm = minute / average;
+      }
+
+      classCheck = this.state.classArr.slice();
+      classCheck.push(parseInt(bpm));
+
+      if (classCheck.length > 2) {
+        classCheck.shift();
+      }
+
+      console.log(classCheck);
+
+      if (classCheck[1] > classCheck[0] || classCheck[1] < classCheck[0]) {
+        if (classAnim > 7) {
+          classNum = 8;
+        } else {
+          classNum = classAnim + 1;
+        }
+      } else {
+        if (classAnim < 1) {
+          classNum = 0;
+        } else {
+          classNum = classAnim - 1;
+        }
       }
 
       this.setState({
@@ -25546,36 +25659,136 @@ function (_Component) {
         intervalArr: intArr,
         average: average,
         averageBPM: Math.round(bpm),
-        BPM: bpm.toFixed(2)
+        BPM: bpm.toFixed(2),
+        classAnim: classNum,
+        classArr: classCheck
       });
+      document.getElementById('counter-button').blur();
+    }
+  }, {
+    key: "componentWillUnmount",
+    value: function componentWillUnmount() {
+      clearInterval(this.interval);
+      window.removeEventListener('keyup', this.counterSpaceBar);
     }
   }, {
     key: "render",
     value: function render() {
-      var _this4 = this;
+      var _this3 = this;
 
+      // console.log(this.state.classAnim);
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "full-page"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "container"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "counters"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Average BPM"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "main-counter"
+        className: "main-counter main-counter-" + this.state.classAnim
       }, this.state.averageBPM), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "BMP"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "average-counter"
-      }, this.state.BPM), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Tap Count"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, this.state.BPM), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Tap Counter"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "tap-counter"
       }, this.state.tapCounter), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-        className: "button-counter",
+        className: "buttons buttons-reset",
+        onClick: this.props.Reset
+      }, "Reset Counter"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+        className: "buttons buttons-counter",
+        id: "counter-button",
         onClick: function onClick() {
-          return _this4.handleClick(_this4.state.tapCounter + 1);
+          return _this3.handleClick(_this3.state.tapCounter + 1);
         }
-      }, "Tap to Count"))));
+      }, "Tap to Count"));
     }
   }]);
 
-  return App;
+  return Counter;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
+
+
+
+/***/ }),
+
+/***/ "./src/js/components/Start.jsx":
+/*!*************************************!*\
+  !*** ./src/js/components/Start.jsx ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Start; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+
+
+var Start =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(Start, _Component);
+
+  function Start() {
+    var _this;
+
+    _classCallCheck(this, Start);
+
+    _this = _possibleConstructorReturn(this, _getPrototypeOf(Start).call(this));
+    _this.startSpaceBar = _this.startSpaceBar.bind(_assertThisInitialized(_this));
+    return _this;
+  }
+
+  _createClass(Start, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      window.addEventListener('keyup', this.startSpaceBar);
+    }
+  }, {
+    key: "startSpaceBar",
+    value: function startSpaceBar(e) {
+      if (e.keyCode == '32') {
+        this.props.Start();
+      }
+    }
+  }, {
+    key: "componentWillUnmount",
+    value: function componentWillUnmount() {
+      window.removeEventListener('keyup', this.startSpaceBar);
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "counters"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Average BPM"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "main-counter main-counter-2"
+      }, "0"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "BMP"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "average-counter"
+      }, "0"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "Tap Counter"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "tap-counter"
+      }, "0"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+        className: "buttons buttons-counter buttons-counter-start",
+        id: "counter-button",
+        onClick: this.props.Start
+      }, "Tap to Count"));
+    }
+  }]);
+
+  return Start;
 }(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
 
 
